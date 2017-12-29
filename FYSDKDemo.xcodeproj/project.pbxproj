@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		141565B41FBBE07500603192 /* FYSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FYSDK.xcassets; path = FYSDKDemo/Frameworks/FYSDK.xcassets; sourceTree = "<group>"; };
+		141565B41FBBE07500603192 /* FYSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FYSDK.xcassets; sourceTree = "<group>"; };
 		142B44091EB03A77003EFFFC /* FYSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146811351F55582A00039C2A /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		146811371F55583600039C2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,6 @@
 		142B44001EB03A77003EFFFC = {
 			isa = PBXGroup;
 			children = (
-				141565B41FBBE07500603192 /* FYSDK.xcassets */,
 				146FD0EB1EEA55F60092FD23 /* FYSDKDemo */,
 				142B440A1EB03A77003EFFFC /* Products */,
 				146288AC1F398DF70088B948 /* Frameworks */,
@@ -99,12 +98,12 @@
 		146FD0EB1EEA55F60092FD23 /* FYSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				146FD0EF1EEA55F60092FD23 /* Frameworks */,
 				146FD0EC1EEA55F60092FD23 /* FYAppDelegate.h */,
 				146FD0ED1EEA55F60092FD23 /* FYAppDelegate.mm */,
 				146FD0F41EEA55F60092FD23 /* FYViewController.h */,
 				146FD0F51EEA55F60092FD23 /* FYViewController.m */,
 				146FD0EE1EEA55F60092FD23 /* Assets.xcassets */,
-				146FD0EF1EEA55F60092FD23 /* Frameworks */,
 				146FD0F21EEA55F60092FD23 /* Info.plist */,
 				146FD0F31EEA55F60092FD23 /* main.m */,
 			);
@@ -114,6 +113,7 @@
 		146FD0EF1EEA55F60092FD23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				141565B41FBBE07500603192 /* FYSDK.xcassets */,
 				14A883921FA9AB120037734C /* FYSDK.framework */,
 			);
 			path = Frameworks;

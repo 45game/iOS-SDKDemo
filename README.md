@@ -1,4 +1,4 @@
-#  风扬游戏iOS SDK客户端说明文档
+#  45游戏iOS SDK客户端说明文档
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/mikegame/iOS-SDKDemo/master/LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
