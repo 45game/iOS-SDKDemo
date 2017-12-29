@@ -101,9 +101,9 @@
         
         FYRole *role = [FYRole new];
         [role setServerId:@"serverId1"];
-        [role setServerName:@"紫陌红尘"];
-        [role setRoleId:@"9527"];
-        [role setRoleName:@"凯特琳"];
+        [role setServerName:@"服务器名称"];
+        [role setRoleId:@"角色id"];
+        [role setRoleName:@"角色名称"];
         [role setRoleLevel:1];
         [role setLoginTime:dateTime];
         [[FYSDK sharedFYSDK] fyReportRole:role];

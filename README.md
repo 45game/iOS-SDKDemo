@@ -64,15 +64,15 @@ success:^{
 {
     FYOrder *order = [FYOrder new];
     [order setServerId:@"serverId1"];
-    [order setTotalFee:1];
-    [order setRoleId:@"9527"];
-    [order setRoleName:@"凯特琳"];
-    [order setProductName:@"未来战士"];
-    [order setProductDescription:@"凯特琳皮肤"];
-    [order setCoOrderId:[self getOrderStringByTime]];
-    [order setCustomInfo:@"好戏开场了，想看帽子戏法吗"];
-    [order setProductId:@"com.FY.FYsdkdemo.1"];
-    [[FYSDK sharedFYSDK] FYPay:order];
+    [order setTotalFee:100];
+    [order setRoleId:@"1"];
+    [order setRoleName:@"角色名称"];
+    [order setProductName:@"道具名称"];
+    [order setProductDescription:@"道具描述"];
+    [order setCpOrderId:[self getOrderStringByTime]];
+    [order setCustomInfo:@"自定义参数"];
+    [order setProductId:@"com.fy.sdkdemo.1"];
+    [[FYSDK sharedFYSDK] fyPay:order];
 }
 ```
 
@@ -105,12 +105,12 @@ success:^{
 
     FYRole *role = [FYRole new];
     [role setServerId:@"serverId1"];
-    [role setServerName:@"紫陌红尘"];
-    [role setRoleId:@"9527"];
-    [role setRoleName:@"凯特琳"];
+    [role setServerName:@"服务器名称"];
+    [role setRoleId:@"角色id"];
+    [role setRoleName:@"角色名称"];
     [role setRoleLevel:1];
     [role setLoginTime:dateTime];
-    [[FYSDK sharedFYSDK] FYReportRole:role];
+    [[FYSDK sharedFYSDK] fyReportRole:role];
     
 }];
 ```
