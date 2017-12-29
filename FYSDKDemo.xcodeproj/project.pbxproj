@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141565B51FBBE07600603192 /* FYSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141565B41FBBE07500603192 /* FYSDK.xcassets */; };
+		146FD0F71EEA55F60092FD23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146FD0EE1EEA55F60092FD23 /* Assets.xcassets */; };
+		146FD0FB1EEA55F60092FD23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146FD0F31EEA55F60092FD23 /* main.m */; };
+		146FD0FC1EEA55F60092FD23 /* FYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146FD0F51EEA55F60092FD23 /* FYViewController.m */; };
+		14CBB6F91FDF83720016387D /* FYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A883921FA9AB120037734C /* FYSDK.framework */; };
+		14CBB6FA1FDF83720016387D /* FYSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14A883921FA9AB120037734C /* FYSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14CBB6FC1FDF84D80016387D /* FYAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 146FD0ED1EEA55F60092FD23 /* FYAppDelegate.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14CBB6FB1FDF83720016387D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				14CBB6FA1FDF83720016387D /* FYSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		141565B41FBBE07500603192 /* FYSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FYSDK.xcassets; path = FYSDKDemo/Frameworks/FYSDK.xcassets; sourceTree = "<group>"; };
+		142B44091EB03A77003EFFFC /* FYSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146811351F55582A00039C2A /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		146811371F55583600039C2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		146811391F55583E00039C2A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1468113B1F55584600039C2A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1468113D1F55584E00039C2A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1468113F1F55585800039C2A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		146811411F55586400039C2A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		146811431F55586900039C2A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		146FD0EC1EEA55F60092FD23 /* FYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAppDelegate.h; sourceTree = "<group>"; };
+		146FD0ED1EEA55F60092FD23 /* FYAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FYAppDelegate.mm; sourceTree = "<group>"; };
+		146FD0EE1EEA55F60092FD23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		146FD0F21EEA55F60092FD23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146FD0F31EEA55F60092FD23 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		146FD0F41EEA55F60092FD23 /* FYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYViewController.h; sourceTree = "<group>"; };
+		146FD0F51EEA55F60092FD23 /* FYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYViewController.m; sourceTree = "<group>"; };
+		14A883921FA9AB120037734C /* FYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FYSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142B44061EB03A77003EFFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CBB6F91FDF83720016387D /* FYSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142B44001EB03A77003EFFFC = {
+			isa = PBXGroup;
+			children = (
+				141565B41FBBE07500603192 /* FYSDK.xcassets */,
+				146FD0EB1EEA55F60092FD23 /* FYSDKDemo */,
+				142B440A1EB03A77003EFFFC /* Products */,
+				146288AC1F398DF70088B948 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		142B440A1EB03A77003EFFFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				142B44091EB03A77003EFFFC /* FYSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146288AC1F398DF70088B948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				146811431F55586900039C2A /* AdSupport.framework */,
+				146811411F55586400039C2A /* CoreTelephony.framework */,
+				1468113F1F55585800039C2A /* AudioToolbox.framework */,
+				1468113D1F55584E00039C2A /* SystemConfiguration.framework */,
+				1468113B1F55584600039C2A /* Security.framework */,
+				146811391F55583E00039C2A /* OpenGLES.framework */,
+				146811371F55583600039C2A /* QuartzCore.framework */,
+				146811351F55582A00039C2A /* OpenAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		146FD0EB1EEA55F60092FD23 /* FYSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				146FD0EC1EEA55F60092FD23 /* FYAppDelegate.h */,
+				146FD0ED1EEA55F60092FD23 /* FYAppDelegate.mm */,
+				146FD0F41EEA55F60092FD23 /* FYViewController.h */,
+				146FD0F51EEA55F60092FD23 /* FYViewController.m */,
+				146FD0EE1EEA55F60092FD23 /* Assets.xcassets */,
+				146FD0EF1EEA55F60092FD23 /* Frameworks */,
+				146FD0F21EEA55F60092FD23 /* Info.plist */,
+				146FD0F31EEA55F60092FD23 /* main.m */,
+			);
+			path = FYSDKDemo;
+			sourceTree = "<group>";
+		};
+		146FD0EF1EEA55F60092FD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14A883921FA9AB120037734C /* FYSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		142B44081EB03A77003EFFFC /* FYSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142B44201EB03A77003EFFFC /* Build configuration list for PBXNativeTarget "FYSDKDemo" */;
+			buildPhases = (
+				142B44051EB03A77003EFFFC /* Sources */,
+				142B44061EB03A77003EFFFC /* Frameworks */,
+				142B44071EB03A77003EFFFC /* Resources */,
+				14CBB6FB1FDF83720016387D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYSDKDemo;
+			productName = XSSDKDemo;
+			productReference = 142B44091EB03A77003EFFFC /* FYSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		142B44011EB03A77003EFFFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "熙文 张";
+				TargetAttributes = {
+					142B44081EB03A77003EFFFC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8LY2B7683Z;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 142B44041EB03A77003EFFFC /* Build configuration list for PBXProject "FYSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 142B44001EB03A77003EFFFC;
+			productRefGroup = 142B440A1EB03A77003EFFFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				142B44081EB03A77003EFFFC /* FYSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		142B44071EB03A77003EFFFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141565B51FBBE07600603192 /* FYSDK.xcassets in Resources */,
+				146FD0F71EEA55F60092FD23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142B44051EB03A77003EFFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CBB6FC1FDF84D80016387D /* FYAppDelegate.mm in Sources */,
+				146FD0FC1EEA55F60092FD23 /* FYViewController.m in Sources */,
+				146FD0FB1EEA55F60092FD23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		142B441E1EB03A77003EFFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		142B441F1EB03A77003EFFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		142B44211EB03A77003EFFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: zhiwu yang (8LY2B7683Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8LY2B7683Z;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FYSDKDemo/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/FYSDKDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FYSDKDemo/Frameworks",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.mksdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		142B44221EB03A77003EFFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: zhiwu yang (8LY2B7683Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8LY2B7683Z;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FYSDKDemo/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/FYSDKDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FYSDKDemo/Frameworks",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.mksdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		142B44041EB03A77003EFFFC /* Build configuration list for PBXProject "FYSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142B441E1EB03A77003EFFFC /* Debug */,
+				142B441F1EB03A77003EFFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142B44201EB03A77003EFFFC /* Build configuration list for PBXNativeTarget "FYSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142B44211EB03A77003EFFFC /* Debug */,
+				142B44221EB03A77003EFFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 142B44011EB03A77003EFFFC /* Project object */;
+}
